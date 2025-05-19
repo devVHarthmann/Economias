@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#princ {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#trouxas {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+}
+
+#t2 {   
+    position: absolute;
+    visibility: hidden;
+    left: 0px;
+}
+#t3 { 
+    position: absolute;
+    visibility: hidden;
+    left: 0px;
+    bottom: 0px;
+}
+#t4 {
+    position: absolute;
+    visibility: hidden;
+    left: 0px;
+    bottom: 0px;
+}
+#mostrarValor{
+    width: 180px;
+    height: 40px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnAdd{
+    transition: 0.5s;
+    font-family: 'Minecraft', sans-serif;
+    color: white;
+    text-shadow: black 1px 1px;
+    width: 100px;
+    height: 40px;
+    border-style: dashed;
+    border: 2px solid black;
+    background-color: #868686;
+    box-shadow: 0px 0px 6px gray;
+}
+
+#addValores{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 380px;
+}
+#zero{
+    background-color: rgb(43, 43, 43);
+    pointer-events: none;
+}
+
+#add1:hover, #add2:hover, #add3:hover, #add4:hover, #add5:hover{
+    background-color: rgba(0, 102, 255, 0.404);
+    transition: 0.5s;
+}
+#inputSacar, #btnSacar{
+    width: 155px;
+    height: 40px;
+    transition: 0.5s;
+    font-family: 'Minecraft', sans-serif;
+    color: white;
+    text-shadow: black 1px 1px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 6px gray;
+}
+#inputSacar{
+    padding: 10px;
+    background-color: rgb(43, 43, 43);
+}
+#btnSacar{
+    background-color: #868686;
+}
+#btnSacar:hover{
+    background-color: rgba(0, 102, 255, 0.404);
+}
+
+#inputSacar[type=number]::-webkit-outer-spin-button,
+  #inputSacar[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+
