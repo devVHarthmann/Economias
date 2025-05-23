@@ -31,8 +31,8 @@ Este projeto consiste em um simulador de cofre digital que permite adicionar moe
 
 ## ✨ Melhorias Implementadas (opcionais)
 
-* [] Contador de moedas por tipo (quantas de R\$0,10, R\$0,25, etc.)
-* [] Armazenamento do total no `localStorage` (valor persiste após recarregar a página)
+* [ ] Contador de moedas por tipo (quantas de R\$0,10, R\$0,25, etc.)
+* [ ] Armazenamento do total no `localStorage` (valor persiste após recarregar a página)
 * [x] Imagem que **enche visualmente** conforme as moedas são adicionadas
 
 ---
